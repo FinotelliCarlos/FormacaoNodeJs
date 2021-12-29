@@ -41,5 +41,18 @@
 -No terminal *nodemon index.js*
 
 # Parametros
+*REQ => Resposta enviada pelo usuario*
+*RES => Resposta enviada para o usuario*
 -É possivel ter quantos parametros for necessario.
-*app.get("/ola/:nome/:empresa"* -O parametro é chamado após dois pontos na rota chamada
+*"/site/:nome/:empresa"* -O parametro é chamado após dois pontos na rota chamada.
+*var nome = req.params.nome*
+*var empresa = req.params.empresa*
+
+# Parametro Obrigatorio
+*/site/:nome/:empresa*
+# Parametro Não Obrigatorio
+*/site/:nome?/:empresa?*
+
+# Query Params
+-Parametro que não é fixo na rota e não são definidos na rota
+*/site/?usuario=carlos_finotelli*
