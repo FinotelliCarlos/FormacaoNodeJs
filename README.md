@@ -25,3 +25,21 @@
 *npm install express --save*
 -Carregar express dentro de uma variavel
 *const app = express();*
+
+# Rotas
+-Define portas da sua aplicação.
+-É possivel criar quantas rotas for necessario.
+*app* -São enviados 2 parametros para a função.
+    *.get("/",function(req, res){* - A rota "/" ou "/outrarota" e a função que a rota terá.
+    *res.send("Welcome To Server Node.js With Express!")* - Conteudo da rota.
+*});*
+
+# Carregamento Automatico
+# Nodemon
+- https://www.npmjs.com/package/nodemon
+*npm install -g nodemon*
+-No terminal *nodemon index.js*
+
+# Parametros
+-É possivel ter quantos parametros for necessario.
+*app.get("/ola/:nome/:empresa"* -O parametro é chamado após dois pontos na rota chamada
