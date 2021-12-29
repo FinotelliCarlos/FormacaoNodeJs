@@ -1,12 +1,14 @@
 const express = require('express')
 const app = express()
 
+/*Rota Home*/
 app.get("/",
     function(req, res){
         res.send("Welcome To Server Node.js ith Express!")
     }
 )
 
+/*Rota com parametros Não Obrigatorios */
 app.get("/site/:artigo?",
     function(req, res){
         var artigo = req.params.artigo;
@@ -19,6 +21,8 @@ app.get("/site/:artigo?",
     }
 )
 
+
+/*Rota com query Params */
 app.get("/me/linkedin", 
     function(req, res){
         var usuario = req.query['usuario'];
@@ -32,6 +36,7 @@ app.get("/me/linkedin",
     }
 )
 
+/*Rota com parametros obrigatorios */
 app.get("/ola/:nome/:empresa",
     function(req, res){
         var nome = req.params.nome
@@ -42,10 +47,10 @@ app.get("/ola/:nome/:empresa",
 
 app.listen(4000,
     function(erro){
-        if(erro){
+        if(erro){   /*Caso o servidor não funcione recebera o erro e informa-lo*/
             console.log("Server its sttoped!")
             console.log("Devido ao erro: " + erro)
-        }else{
+        }else{  /*Servidor rodando normalmente*/
             console.log("Server its running!")
         }
     }
