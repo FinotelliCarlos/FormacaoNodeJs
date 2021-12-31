@@ -9,3 +9,22 @@ CREATE TABLE usuarios(
     /*COLUNA IDADE CRIADA COM O TIPO INTEIRO*/
     idade INT
 );
+
+    /*INSERSÃO DE DADOS NA TABLELA USUARIOS*/
+    /*INSERT INTO NOMEDATABELA (CAMPO1,CAMPO2, CAMPO3) VALUES ('TEXTO','TEXTO',NUMERO)*/
+INSERT INTO usuarios(nome,email, idade) VALUES(
+    /*COLUNA NOME TIPO VARCHAR TEXTO INSERIDO COM ''*/
+    'cristiane',
+    /*COLUNA EMAIL TIPO VARCHAR TEXTO INSERIDO COM ''*/
+    'pr.cristiane@outlook.com',
+    /*COLUNA IDADE TIPO INT NUMEROS SÃO INSERIDOS SEM ''*/
+    54
+);
+
+/*LISTAR TABELA*/
+/*SELECT(selecione) *(tudo) FROM(da) USUARIOS(tabela)*/
+SELECT * FROM USUARIOS;
+
+/*SELECIONAR*/
+/*SELECT(selecione) *(tudo) FROM(da) USUARIOS(tabela) WHERE(aonde tenha) IDADE(na coluna) =(igual a) 27*/
+SELECT * FROM USUARIOS WHERE IDADE = 27;
