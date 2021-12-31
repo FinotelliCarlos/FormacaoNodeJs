@@ -6,3 +6,6 @@ http.createServer(
     }
 ).listen(8181);
 console.log("Server is running at port: http://localhost:8181")
+
+
+http.createServer().listen(8181);

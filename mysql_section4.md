@@ -5,7 +5,7 @@
  - Acessando o mysql pelo CMD<br>
  - Sempre usar ; quando utilizar comandos sql<br>
  *mysql -h localhost -u root -p*<br>
- *digirat senha root*<br>
+ *digirar senha root*<br>
 - Para exibir de Banco de Dados Existentes<br>
 *SHOW DATABASES;*<br>
 - Para criar um banco de dados<br>
@@ -43,7 +43,7 @@
 -Tipo de dados que podem ser armazenados<br>
 *VARCHAR* - Texto<br>
 *CHAR* - Caracteres<br>
-*int* - Numeros Inteiros<br>
-*float* - Numeros Decimais<br>
-*date* - Datas<br>
-*blob* - Arquivos
+*INT* - Numeros Inteiros<br>
+*FLOAT* - Numeros Decimais<br>
+*DATE* - Datas<br>
+*BLOB* - Arquivos

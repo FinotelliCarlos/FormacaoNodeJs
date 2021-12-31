@@ -1,6 +1,6 @@
 # Node.Js
 -Javascript é uma linguagem criada para rodar em navegadores.<br>
--*Node.JS é uma interpretador Javascript, que roda fora de navegadores.*
+-*Node.JS é um interpretador Javascript, que roda fora de navegadores.*
 
 # Instalação Node.Js
 - https://nodejs.org/en/
@@ -11,14 +11,15 @@
 # Modulos
 -É importante exportar funções e ou variaveis quando for necessario utilizar em outro local.<br>
 *module.exports = unica;*<br>
-*module.exports = {mais, de, uma};*<br>
+*module.exports = {mais, de, uma};*<br><br>
 -É necessario importar o arquivo e função como variavel.<br>
 *var importarFuncao = require("./arquivo")*<br>
 *importarFuncao.funcao* (Após o ponto vem a função importada quando ouver mais de uma.)
 
 # Http
 -Criação de um servidor http<br>
-*var http = require("http");*
+*var http = require("http");*<br>
+*http.createServer().listen(8181);*
 
 # Instalação Express
 - https://expressjs.com/pt-br/<br>
@@ -37,8 +38,8 @@
 # Carregamento Automatico
 # Nodemon
 - https://www.npmjs.com/package/nodemon<br>
-*npm install -g nodemon*<br>
--No terminal *nodemon index.js*
+*npm install -g nodemon*<br> - instalação global com -g
+*nodemon index.js* - No terminal 
 
 # Parametros
 *REQ => Resposta enviada pelo usuario*<br>
