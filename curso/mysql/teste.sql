@@ -14,9 +14,9 @@ CREATE TABLE usuarios(
     /*INSERT INTO NOMEDATABELA (CAMPO1,CAMPO2, CAMPO3) VALUES ('TEXTO','TEXTO',NUMERO)*/
 INSERT INTO usuarios(nome,email, idade) VALUES(
     /*COLUNA NOME TIPO VARCHAR TEXTO INSERIDO COM ''*/
-    'cristiane',
+    'nome',
     /*COLUNA EMAIL TIPO VARCHAR TEXTO INSERIDO COM ''*/
-    'pr.cristiane@outlook.com',
+    'teste.usuario@outlook.com',
     /*COLUNA IDADE TIPO INT NUMEROS SÃO INSERIDOS SEM ''*/
     54
 );
@@ -28,3 +28,19 @@ SELECT * FROM USUARIOS;
 /*SELECIONAR*/
 /*SELECT(selecione) *(tudo) FROM(da) USUARIOS(tabela) WHERE(aonde tenha) IDADE(na coluna) =(igual a) 27*/
 SELECT * FROM USUARIOS WHERE IDADE = 27;
+
+/*Deleção de itens na tabela*/
+/*Toda tabela será excluida*/
+DELETE FROM usuarios;
+/*Todo registro que tenha o nome de usuario 'Carlos' será excluido*/
+DELETE FROM usuarios WHERE nome = 'carlos';
+
+/*Atualizar dados na tabela*/
+/*Toda tabela será alterada na coluna nome*/
+UPDATE usuarios SET nome = "Nome de teste";
+
+/*Na linha do usuario 'natalia' será alterado somente o nome*/
+UPDATE usuarios SET nome = "Nome do usuario alterado" WHERE nome = "nome";
+
+/*É possivel passar mais de um item por update*/
+UPDATE usuarios SET nome = "Nome de outro usuario alterado", email = "teste.alterado@gmail.com" WHERE nome = "nome";

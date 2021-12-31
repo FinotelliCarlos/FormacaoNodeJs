@@ -32,13 +32,24 @@
 *SELECT * FROM usuarios;*<br>
 - Buscar dados na tabela<br>
 *SELECT * FROM usuarios WHERE idade >= 18;*<br>
-
+- Deletar item na tabela<br>
+*DELETE FROM usuarios WHERE nome = 'carlos';*<br>
+-Atualizar somente uma coluna de um item na tabela<br>
+*UPDATE usuarios*<br>
+    *SET nome = "Nome do usuario alterado"*<br>
+    *WHERE nome = "nome";*<br>
+-Atualizar duas colunas de um item na tabela<br>
+*UPDATE usuarios*<br>
+    *SET nome = "Nome de outro usuario alterado",*<br>
+    *email = "teste.alterado@gmail.com"*<br>
+    *WHERE nome = "nome";*
 
 # Tipos de comandos
 *SELECT* - Selecionar<br>
 *INSERT* - Inserir<br>
 *WHERE* - Buscar<br>
 *DELETE* - Deletar<br>
+*UPDATE* - Atualizar
 # Estrutura de dados (Tipo de dados)
 -Tipo de dados que podem ser armazenados<br>
 *VARCHAR* - Texto<br>
