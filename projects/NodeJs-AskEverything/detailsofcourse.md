@@ -19,3 +19,5 @@
  - Trabalhar com .render
  - O Express sempre olha dentro da pasta "views"
  *res.render('index')*
+ - Caso haja outra pasta dentro de "views" tambem poderá ser chamada
+ *res.render('otherfolder/filename')*
