@@ -7,7 +7,13 @@
     <title>Ask Everything</title>
   </head>
   <body>
-    <p>Developer name: <%= nome %></p>
+    <p>Developer name: <%= name %></p>
     <p>Skill: <%= lang %></p>
+
+    <% if(msg){ %>
+        <h4>Error Message!</h4>
+    <% } else { %>
+        <h4>We not have error Messages!</h4>
+    <% } %>
   </body>
 </html>

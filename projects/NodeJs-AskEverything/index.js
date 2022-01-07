@@ -3,12 +3,14 @@ const app = express()
 
 app.set('view engine','ejs')
 
-app.get('/:nome/:lang', (req,res) => {
-    var nome = req.params.nome;
+app.get('/:name/:lang', (req,res) => {
+    var name = req.params.name;
     var lang = req.params.lang;
+    var sendMsg = true;
     res.render('index',{
-        nome: nome,
+        name: name,
         lang: lang,
+        msg: sendMsg,
     })
 })
 

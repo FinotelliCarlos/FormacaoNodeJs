@@ -15,9 +15,10 @@
  *html com extensão .ejs*
  - Exibir valore de uma variavel<br>
  *<%= var %>*<br>
+ - Trabalhar com expreções<br>
+ *<% if()else() %>*<br>
 
  # Renderização com express
-
  - Trabalhar com .render<br>
  - O Express sempre olha dentro da pasta "views"<br>
  *res.render('index')*<br>
@@ -31,3 +32,11 @@
         *nome: nome,*<br>
         *lang: lang,*<br>
     *})*<br>
+
+# Estruturas condicionais com EJS
+- Controlar oque é exibido em tela conforme condições
+*<% if(msg === true){ %>*<br>
+    *<h4>Error Message!</h4>*<br>
+*<% } else { %>*
+    *<h4>We not have error Messages!</h4>*<br>
+*<% } %>*<br>
