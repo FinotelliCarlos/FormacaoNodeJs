@@ -4,9 +4,9 @@
 # Criação do arquivo principal do projeto (index.js)<br>
  - Express <br>
  *npm install express --save*<br>
-<br>
+
  - MySQL <br>
-<br>
+
  - EJS "Embedded JavaScript templating." *criação html*<br>
  - https://ejs.co/<br>
  *npm install ejs --save*<br>
