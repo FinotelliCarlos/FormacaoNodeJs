@@ -38,7 +38,7 @@
  - Controlar oque é exibido em tela conforme condições<br>
 *<% if(msg === true){ %>*<br>
     *<strong>Error Message!</strong>*<br>
-*<% } else { %>*
+*<% } else { %>*<br>
     *<strong>We not have error Messages!</strong>*<br>
 *<% } %>*<br>
 
