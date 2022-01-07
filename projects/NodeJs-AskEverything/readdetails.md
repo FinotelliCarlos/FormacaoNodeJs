@@ -37,9 +37,9 @@
     *<% if()else() %>*<br>
  - Controlar oque é exibido em tela conforme condições<br>
 *<% if(msg === true){ %>*<br>
-    *<p>Error Message!</p>*
+    *<bold>Error Message!</bold>*
 *<% } else { %>*
-    *<p>We not have error Messages!</p>*
+    *<bold>We not have error Messages!</bold>*
 *<% } %>*<br>
 
 # Estrutura de repetição com EJS
