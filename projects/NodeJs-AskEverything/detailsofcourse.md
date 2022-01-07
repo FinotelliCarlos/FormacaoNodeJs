@@ -13,10 +13,7 @@
  - (Dizer ao Express usar o EJS como View Engine)<br>
  *app.set('view engine','ejs');*<br>
  *html com extensão .ejs*
- - Exibir valore de uma variavel<br>
- *<%= var %>*<br>
- - Trabalhar com expreções<br>
- *<% if()else() %>*<br>
+
 
  # Renderização com express
  - Trabalhar com .render<br>
@@ -34,6 +31,10 @@
     *})*<br>
 
 # Estruturas condicionais com EJS
+ -Exibir valore de uma variavel<br>
+    *<%= var %>*<br>
+ - Trabalhar com expreções<br>
+    *<% if()else() %>*<br>
 - Controlar oque é exibido em tela conforme condições
 *<% if(msg === true){ %>*<br>
     *<h4>Error Message!</h4>*<br>
