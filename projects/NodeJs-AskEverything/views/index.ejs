@@ -7,16 +7,18 @@
     <title>Ask Everything</title>
   </head>
   <body>
-
+    <h3>Render vars</h3>
     <p>Developer name: <%= name %></p>
     <p>Skill: <%= lang %></p>
 
+    <h3>Render conditions</h3>
     <% if(msg){ %>
     <h4>Error Message!</h4>
     <% } else { %>
     <h4>We not have error Messages!</h4>
     <% } %>
 
+    <h3>Render repetitions</h3>
     <% products.forEach(function(products) { %>
     <p>
       O item : <%= products.name %><br>
