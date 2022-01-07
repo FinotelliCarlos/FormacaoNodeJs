@@ -7,15 +7,22 @@
     <title>Ask Everything</title>
   </head>
   <body>
-      
+
     <p>Developer name: <%= name %></p>
     <p>Skill: <%= lang %></p>
 
     <% if(msg){ %>
-        <h4>Error Message!</h4>
+    <h4>Error Message!</h4>
     <% } else { %>
-        <h4>We not have error Messages!</h4>
+    <h4>We not have error Messages!</h4>
     <% } %>
+
+    <% products.forEach(function(products) { %>
+    <p>
+      O item : <%= products.name %><br>
+      <span>Custa: R$<%= products.price %></span>
+    </p>
+    <% }) %>
 
   </body>
 </html>

@@ -1,5 +1,5 @@
 # Inicio do projeto<br>
-- npm init
+ - npm init
 
 # Criação do arquivo principal do projeto (index.js)<br>
  - Express <br>
@@ -31,13 +31,17 @@
     *})*<br>
 
 # Estruturas condicionais com EJS
- -Exibir valore de uma variavel<br>
+ - Exibir valore de uma variavel<br>
     *<%= var %>*<br>
  - Trabalhar com expreções<br>
     *<% if()else() %>*<br>
-- Controlar oque é exibido em tela conforme condições
+ - Controlar oque é exibido em tela conforme condições
 *<% if(msg === true){ %>*<br>
     *<h4>Error Message!</h4>*<br>
 *<% } else { %>*
     *<h4>We not have error Messages!</h4>*<br>
 *<% } %>*<br>
+
+# Estrutura de repetição com EJS
+ - Utilizando 'forEach()' (Para cada)<br>
+ *list.forEach( function(list) { })*<br>
