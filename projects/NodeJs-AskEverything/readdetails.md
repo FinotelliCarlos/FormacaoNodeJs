@@ -31,9 +31,9 @@
     *})*<br>
 
 # Estruturas condicionais com EJS
- - Exibir valore de uma variavel<br>
+ - Exibir valore de uma variavel (Contem sinal de igual "=")<br>
     *<%= var %>*<br>
- - Trabalhar com expreções<br>
+ - Trabalhar com expreções (Sem o sinal de igual "=" para condições)<br>
     *<% if()else() %>*<br>
  - Controlar oque é exibido em tela conforme condições<br>
 *<% if(msg === true){ %>*<br>
