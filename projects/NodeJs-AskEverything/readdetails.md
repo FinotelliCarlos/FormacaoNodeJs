@@ -40,8 +40,18 @@
     *<strong>Error Message!</strong>*<br>
 *<% } else { %>*<br>
     *<strong>We not have error Messages!</strong>*<br>
-*<% } %>*<br>
+*<% } %>*
 
 # Estrutura de repetição com EJS
  - Utilizando 'forEach()' (Para cada)<br>
  *list.forEach( function(list) { })*<br>
+
+ # Arquivos Estaticos
+ - Arquivos que não são processados no back-end<br>
+  *CSS*<br>
+  *Javascript(Front-end)*<br>
+  *Imagens*<br>
+  *Dados*<br>
+ Etc...<br>
+- Linha de comando que permite utilizar arquivos estaticos<br>
+*app.use(express.static('public'))*<br>
