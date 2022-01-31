@@ -60,3 +60,7 @@
  - https://getbootstrap.com/<br>
  - Através do pacote baixado do bootstrap são disponibilizados 2 pastas (css,js), extrair as duas na pasta public<br>
  - Para utilizar o Bootstrap deve-se aprender ou estudar classes já nomeadas para determinados estilos<br>
+
+ # Utilização de partials
+  - São partes do meu codigo html transformadas em componente para reutilização.<br>
+ Importar componente: *<%- include ("./partials/header.ejs") %>*<br>
