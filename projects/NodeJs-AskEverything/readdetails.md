@@ -28,7 +28,7 @@
     *{*<br>
         *nome: nome,*<br>
         *lang: lang,*<br>
-    *})*<br>
+    *})*
 
 # Estruturas condicionais com EJS
  - Exibir valore de uma variavel (Contem sinal de igual "=")<br>
@@ -44,7 +44,7 @@
 
 # Estrutura de repetição com EJS
  - Utilizando 'forEach()' (Para cada)<br>
- *list.forEach( function(list) { })*<br>
+ *list.forEach( function(list) { })*
 
  # Arquivos Estaticos
  - Arquivos que não são processados no back-end<br>
@@ -54,13 +54,13 @@
   *Dados*<br>
  Etc...<br>
  - Linha de comando que permite utilizar arquivos estaticos<br>
-*app.use(express.static('public'))*<br>
+*app.use(express.static('public'))*
 
 # Instalação Bootstrap
  - https://getbootstrap.com/<br>
  - Através do pacote baixado do bootstrap são disponibilizados 2 pastas (css,js), extrair as duas na pasta public<br>
- - Para utilizar o Bootstrap deve-se aprender ou estudar classes já nomeadas para determinados estilos<br>
+ - Para utilizar o Bootstrap deve-se aprender ou estudar classes já nomeadas para determinados estilos
 
  # Utilização de partials
   - São partes do meu codigo html transformadas em componente para reutilização.<br>
- Importar componente: *<%- include ("./partials/header.ejs") %>*<br>
+ Importar componente: *<%- include ("./partials/componentename.ejs") %>*<br>
