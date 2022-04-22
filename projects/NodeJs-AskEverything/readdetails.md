@@ -64,3 +64,6 @@
  # Utilização de partials
   - São partes do meu codigo html transformadas em componente para reutilização.<br>
  Importar componente: *<%- include ("./partials/componentename.ejs") %>*<br>
+
+ # Rota .POST
+ - Recebe as informações do formulario via requisição do servidor não visiveis ao usuario, diferentemente da Rota .GET

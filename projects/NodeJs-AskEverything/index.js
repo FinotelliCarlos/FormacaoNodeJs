@@ -12,6 +12,10 @@ app.get("/ask", (req, res) => {
   res.render("ask");
 });
 
+app.post('/saveask', (req,res) =>{
+  res.send('Form received.')
+});
+
 app.listen(4000, () => {
   console.log("App is running!");
 });
