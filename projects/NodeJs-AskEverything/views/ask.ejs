@@ -9,9 +9,15 @@
       <div class="card-body">
         <form method="post" action="/saveask">
           <label>Titulo:</label>
-          <input type="text" placeholder="Titulo" class="form-control" />
+          <input
+            name="title"
+            type="text"
+            placeholder="Titulo"
+            class="form-control"
+          />
           <br /><label>Descrição:</label>
           <textarea
+            name="description"
             placeholder="Descreva sua pergunta"
             class="form-control"
           ></textarea>

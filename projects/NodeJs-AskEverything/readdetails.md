@@ -68,4 +68,13 @@
  # Rota .POST
  - Recebe as informações do formulario via requisição do servidor não visiveis ao usuario, diferentemente da Rota .GET<br>
  - Rota POST geralmente recebe dados de formulario.<br>
- - Inserindo na action a rota criada para recebimento dos dados la do Form.
+ - Inserindo na action a rota criada para recebimento dos dados la do Form.<br>
+
+ # Capturando dados de um formulário
+ - npm install body-parser --save<br>
+ - É necessario linkar o bodyParser ao Express<br>
+ *app.use(bodyParser.urlencoded({extended: false}));*<br>
+ *app.use(bodyParser.json());*<br>
+ - No html os elementos que receberão os dados devem receber seus devidos nomes.
+ - Para pegar essa informação devemos criar a variavel e declarar a mesma com a requisição com o devido nome do campo.<br>
+ *var title = req.body.*<br>
