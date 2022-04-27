@@ -23,7 +23,7 @@ app.get("/ask", (req, res) => {
 app.post('/saveask', (req,res) =>{
   var title = req.body.title;
   var description = req.body.description;
-  res.send('Recebemos os seguintes dados = Titulo: ' + title + ' Descrição: ' + description)
+  res.send('Titulo: ' + title + ' Descrição: ' + description)
 }); 
 
 app.listen(port, () => {

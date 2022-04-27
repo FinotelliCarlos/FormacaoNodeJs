@@ -78,3 +78,7 @@
  - No html os elementos que receberão os dados devem receber seus devidos nomes.
  - Para pegar essa informação devemos criar a variavel e declarar a mesma com a requisição com o devido nome do campo.<br>
  *var title = req.body.*<br>
+
+ # Utilizando MySQL Workbench
+ - Ferramenta de gerenciamento de dados.<br>
+ - 
