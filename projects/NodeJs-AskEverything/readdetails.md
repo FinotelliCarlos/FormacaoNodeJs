@@ -66,4 +66,6 @@
  Importar componente: *<%- include ("./partials/componentename.ejs") %>*<br>
 
  # Rota .POST
- - Recebe as informações do formulario via requisição do servidor não visiveis ao usuario, diferentemente da Rota .GET
+ - Recebe as informações do formulario via requisição do servidor não visiveis ao usuario, diferentemente da Rota .GET<br>
+ - Rota POST geralmente recebe dados de formulario.<br>
+ - Inserindo na action a rota criada para recebimento dos dados la do Form.
